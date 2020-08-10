@@ -1,0 +1,67 @@
+form{
+    border-style: outset;
+    border-radius: 25px;
+    border-color: black;
+    padding:20px;
+    margin:0 auto;
+    width:350px;
+    height:300px;
+    text-align: center;
+    background-color:cornsilk;
+
+
+
+}
+h1{
+    color:red;
+}
+body{
+    /*margin-top:200px;
+    background-image: url("book1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;*/
+
+    margin:0px;
+    padding:0;
+    background-image: url("plain.jpg");
+    background-size:cover;
+   background-position: center;
+
+
+}
+
+.f1{
+  margin-top:80px;
+}
+div{
+    text-align: left;
+
+}
+
+
+
+/*navigation bar*/
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0px;
+    overflow:hidden;
+    background-color:navy;
+}
+li{
+    float:left;
+}
+li a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+#t:hover{
+    background-color:black;
+}
+li a:hover{
+    background-color:blue;
+}
